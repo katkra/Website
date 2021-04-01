@@ -1,0 +1,44 @@
+# Danish translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-02-12 14:48+0100\n"
+"PO-Revision-Date: 2021-02-12 11:44+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: app/routes.py:156
+msgid "Congratulations, you are now a registered user!"
+msgstr "Tyllyke, du er tilmeld nu"
+
+#: app/translate.py:9
+msgid "Error: the translation service is not configured."
+msgstr ""
+
+#: app/translate.py:18
+msgid "Error: the translation service failed."
+msgstr ""
+
+#: app/templates/_post.html:19
+msgid "Translate"
+msgstr ""
+
+#: app/templates/base.html:69
+msgid "Error: Could not contact server."
+msgstr ""
+
+#: app/templates/register.html:6
+msgid "Register"
+msgstr "Tilmeld"
+
