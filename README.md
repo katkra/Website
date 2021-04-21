@@ -10,5 +10,5 @@ Create a virtual environment in which to run it in. ->https://www.c-sharpcorner.
 .\virtual\Scripts\activate
 
 (virtual) set FLASK_APP=web.py
-(virtual) set MS_TRANSLATOR_KEY=e558d2f5fa794f44ac1800ede50397ed
+(virtual) set MS_TRANSLATOR_KEY=
 (virtual) flask run
