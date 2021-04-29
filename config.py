@@ -16,9 +16,13 @@ class Config(object):
     MAIL_USE_TLS =False #os.environ.get('MAIL_USE_TLS') is not None
     MAIL_USE_SSL=True
     MAIL_USERNAME = 'katkra1994@googlemail.com'#os.environ.get('MAIL_USERNAME')
-    MAIL_PASSWORD = 'spannbetttuch7'#os.environ.get('MAIL_PASSWORD')
+    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['katkra1994@googlemail.com']
-    LANGUAGES = ['en', 'da']
+    LANGUAGES = ['en', 'da','dk']
     ELASTICSEARCH_URL = 'http://localhost:9200'#os.environ.get('ELASTICSEARCH_URL')
     MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
+
+    #MAIL_SERVER=localhost
+    #MAIL_PORT=25
+    DATABASE_URL=mysql+pymysql://website:giraffenpo@localhost:3306/website
    
