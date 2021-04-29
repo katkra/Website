@@ -26,5 +26,5 @@ class Config(object):
 
     #MAIL_SERVER=localhost
     #MAIL_PORT=25
-    DATABASE_URL=mysql+pymysql://website:giraffenpo@localhost:3306/website
+    DATABASE_URL=mysql+pymysql://web:giraffenpo@localhost:3306/web
    
