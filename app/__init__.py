@@ -15,7 +15,7 @@ import os
 from flask_mail import Mail, Message
 from flask_moment import Moment
 
-from elasticsearch import Elasticsearch
+
 
 db = SQLAlchemy()
 migrate = Migrate()
