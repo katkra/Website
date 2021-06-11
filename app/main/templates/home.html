@@ -4,8 +4,7 @@
 {% extends "base.html" %}
 {% block app_content %}
   <div class="home">
-    <h1>A Python product</h1>
-    <p>This website was built with Python via the Flask framework.</p>
+
   </div>
   {% for countdown in countdowns %}
   <div> <b>{{countdown.NameProject}}</b> needs to be done by {{countdown.DueDate}} and the time left is <b>{{countdown.Countdown}}</b></div>
