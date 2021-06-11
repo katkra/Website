@@ -24,3 +24,4 @@ class Config(object):
     ELASTICSEARCH_URL = 'http://localhost:9200'#os.environ.get('ELASTICSEARCH_URL')
     MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
 
+
