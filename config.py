@@ -19,7 +19,7 @@ class Config(object):
     MAIL_USE_SSL=True
     MAIL_USERNAME = 'katkra1994@googlemail.com'#os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
-    ADMINS = ['katkra1994@googlemail.com']
+    ADMINS = ['katharinakrabel@gmail.com']
     LANGUAGES = ['en', 'da','dk']
 
     MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
